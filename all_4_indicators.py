@@ -1,10 +1,10 @@
 import yfinance as yf
 import pandas as pd
-import talib
 import streamlit as st
 from datetime import datetime, time as dt_time
 import telegram
 import time
+import pandas_ta as ta
 
 # Telegram bot setup
 TELEGRAM_TOKEN = '8126579938:AAHG-BLo99VDR-qbWKVKHC7fRGY5GfJ3I6U'
